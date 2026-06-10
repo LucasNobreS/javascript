@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>segundo script</title>
+
+    <style>
+        body {
+            background-color: rgb(73, 73, 239);
+            color: white;
+            font: normal 20pt arial;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>ja me livrei</p>
+    <script>
+        var n1 = Number( window.prompt("Digite um numero: "));
+//simplificar com number, mas nao esquecer essas opcoes de float ou int
+        var n2 = Number( window.prompt("Digite outro numero: "));
+
+        var soma = n1 + n2;
+        window.alert(`a soma entre ${n1} e ${n2} é ${soma}`);
+// o + ta servindo como concatenação nesse caso
+//number + number = adição
+//string + string = concatenação
+
+
+//de number para string, tem que usar o toString ou string, modelo:
+//        var soma = n1 + n2;
+// window.alert("A soma é: " + String(soma));
+// ou
+// window.alert("A soma é: " + soma.toString());
+    </script>
+</body>
+</html>
